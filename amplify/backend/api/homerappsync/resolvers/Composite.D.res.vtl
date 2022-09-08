@@ -1,0 +1,5 @@
+#if($ctx.result.statusCode >= 200 && $ctx.result.statusCode < 300)
+  $ctx.result.body
+#else
+  $util.appendError('nope')
+#end

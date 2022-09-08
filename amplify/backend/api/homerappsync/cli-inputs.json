@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "homerappsync",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/brehmcla/homer-appsync/amplify/backend/api/homerappsync/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

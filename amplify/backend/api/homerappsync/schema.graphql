@@ -1,0 +1,36 @@
+type A {
+  id: ID!
+  when: String
+}
+
+type B {
+  id: ID!
+  when: String
+}
+
+type C {
+  id: ID!
+  when: String
+}
+
+type D {
+  id: ID!
+}
+
+type Composite {
+  A: [A] @function(name: "homerappsync1ba0f7d6-${env}")
+  B: [B] @function(name: "homerappsync1ba0f7d6-${env}")
+  D: [D]
+}
+
+type Query {
+  get_A:[A]! @function(name: "homerappsync1ba0f7d6-${env}")
+  get_B:[B]! @function(name: "homerappsync1ba0f7d6-${env}")
+  get_C:[C]! @function(name: "homerappsync1ba0f7d6-${env}")
+  get_D:[D]!
+  composite:Composite!
+}
+
+schema {
+  query: Query
+}

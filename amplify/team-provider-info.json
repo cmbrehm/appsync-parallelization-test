@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-homerappsync-dev-144248-authRole",
+      "UnauthRoleArn": "arn:aws:iam::236361277585:role/amplify-homerappsync-dev-144248-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::236361277585:role/amplify-homerappsync-dev-144248-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-homerappsync-dev-144248-deployment",
+      "UnauthRoleName": "amplify-homerappsync-dev-144248-unauthRole",
+      "StackName": "amplify-homerappsync-dev-144248",
+      "StackId": "arn:aws:cloudformation:us-east-1:236361277585:stack/amplify-homerappsync-dev-144248/3c6ef5d0-18dc-11ed-8221-0ecf7e927879",
+      "AmplifyAppId": "d2yqg45jhjwgss"
+    },
+    "categories": {
+      "function": {
+        "homerappsync1ba0f7d6": {
+          "deploymentBucketName": "amplify-homerappsync-dev-144248-deployment",
+          "s3Key": "amplify-builds/homerappsync1ba0f7d6-4a39656551496349384b-build.zip"
+        }
+      }
+    }
+  }
+}
